@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="css/detailpage.css">
+    <script src='./js/fscreen.js'></script>
+    <!--获取系统当前时间-->
+    <script type="text/javascript">
+        setInterval(on,1000);  //这里是使时间动起来的地方
+        function on() {
+            var date1 =new Date;
+            var  year=date1.getFullYear();
+            var  month=date1.getMonth();
+            var day=date1.getDate();
+            var xinqi=date1.getDay();
+            
+            var timestart=year+"-"+(month+1)+"-"+day+"  08:00";
+            var timeend=year+"-"+(month+1)+"-"+day+"  23:00"
+            document.getElementById("timegetstart0").innerHTML = timestart;
+            document.getElementById("timegetend0").innerHTML = timeend;
+        }
+    </script>
+</head>
+
+<body>
+<div class="main" > 
+    <div id="topToolbar" style="z-index: 100;">
+        <div class="title">
+            <p>我在校园</p>
+            <div class="box">
+                <img src="images/title.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏 -->
+<!--
+        <div class="timeon">
+            <img src="images/onvacation.png" alt ="">
+            <span id="timegetstart0"></span>
+            
+        </div>
+
+--> <div class="list">
+            <div style="position:relative;">
+
+                <a href="detailpage.html"> <img src="images/templates.png" /></a>
+                <div class="name" style="position:absolute; z-index:50; left:21%; top:3.3%">你的名字</div>
+                <div id="timegetstart0" style="position:absolute; z-index:50; left:30%; top:14%"></div>
+                <div id="timegetend0" style="position:absolute; z-index:50; left:30%; top:19%"></div>
+                <div class="name" style="position:absolute; z-index:50; left:32%; top:45%">1008611111</div>                
+            </div>
+        <img style="margin-top: -20px;" src="images/shenpi.png" alt="">
+        <img style="margin-top: 0px;" src="images/paddings.png" alt="">
+            
+    </div>
+</div>
+
+<div id="bottomToolbar">
+    <div class="last">
+        <li><img src="images/last1.jpg" alt=""></li>
+        <li><img src="images/last2.jpg" alt=""></li>
+        
+        <li>
+        <a href="settings.html">
+            <img src="images/last3.jpg" alt="">
+        </a>
+        </li>
+
+
+
+    </div>
+</div>
+</body>
+
+</html>

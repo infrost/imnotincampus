@@ -1,0 +1,199 @@
+        body {
+            max-width: 540px;
+            min-width: 320px;
+            margin: 0 auto;
+            font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+            color: #000;
+            background: #f4f4f4;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .div {
+            box-sizing: border-box;
+        }
+        
+        .main{
+            border-bottom: 100px;
+            margin-bottom: 100px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+        
+        h4 {
+            padding-top: 5px;
+            margin-top: 10px auto;
+            margin-left: 20px;
+        }
+        
+        #topToolbar{
+            _display:none;
+            padding-top: 20px solid #3cb371;
+            width:100%; height:-30px; line-height:0px;
+            background:#3cb371; border-bottom:0px solid #409F89;
+            position:fixed; top:-10px; left:0;
+            _position:absolute; _top:0;
+        }
+
+        .title {
+            position: relative;
+            width: 100%;
+            height: 40px;
+            background-color: #3cb371;
+            color: #fff;
+            /* text-align: center; */
+            font-size: 18px;
+            font-weight: lighter;
+            line-height: 40px;
+        }
+        
+        .title p {
+            margin-left: 10px;
+        }
+        
+        .box {
+            position: absolute;
+            top: 3px;
+            right: 10px;
+        }
+        
+        .box img {
+            width: 100px;
+            height: 35px;
+        }
+        /* focus */
+        
+        .foucs {
+            width: 100%;
+            margin-top: 70px ;
+            margin-left: 0px;
+            margin-bottom: -5px;
+            border-radius: 15px 15px 0px 0px;
+            overflow: hidden;
+        }
+       
+        .settingshead{
+            width: 100%;
+            margin-top: 70px ;
+            margin-left: 0px;
+            margin-bottom: -5px;
+            border-radius: 15px;
+            overflow: hidden;            
+        }
+        /*
+        #u111{
+            margin-bottom: 0px;
+        }
+        */
+        .foucs img {
+            width: 100%;
+            
+        }
+        /* nov */
+        
+        .nav {
+            width: 95%;
+            background-color: #fff;
+            font-size: 18px;
+            margin: 0px auto;
+            border-radius: 15px 15px 15px 15px;
+        }
+        
+        #navlogo{
+            margin-left: 0px auto;
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        #bottomToolbar{
+            width:100%; height:100px; line-height:80px;
+            background:#ffffff; border-top:0px solid #409F89;
+            position:fixed; bottom:0; left:0;
+            _position:absolute; _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
+            /*
+                document.body.scrollTop 网页滚动的距离
+                document.body.clientHeight 网页可见区域高
+                this.offsetHeight 当前元素的高度
+            */
+        }
+       /* #bottomToolbar a{ color:#FFF;}
+*/
+        .nav img {
+            vertical-align: middle;
+        }
+        /* .subnav */
+        
+        .subnav {
+            border-radius: 25px;
+            width: 95%;
+        }
+        
+        .subnav-hd {
+            border-radius: 15px 15px 0px 0px;
+            margin: 0px auto;
+            margin-top: -5px;
+            width: 95%;
+            height: 30px;
+            line-height: 30px;
+            color: #555;
+            font-size: 16px;
+            background-color: #fff;
+            border-bottom: 0px solid #f4f4f4;
+        }
+        
+        .subnav-body {
+            box-sizing: border-box;
+            width: 95%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #fff;
+            align-content: center;
+            border-radius: 0px 0px 15px 15px;
+        }
+        
+        .subnav-body li {
+            flex: 24%;
+        }
+        
+        .subnav-body li:nth-child(-n+6) {
+            border-bottom: 0px solid #f4f4f4;
+            border-left: 0px solid #f4f4f4;
+        }
+        
+        .subnav-body a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .subnav-body .icon-img {
+            padding: 10px 0px 0px 0px;
+        }
+        
+        .last {
+            display: flex;
+            width: 100%;
+            background-color: #fff;
+            margin-top: 20px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .last li {
+            flex: 1;
+        }
