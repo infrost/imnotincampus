@@ -7,7 +7,7 @@ Gitee：https://gitee.com/nianbroken/Firework_Simulator
     'use strict';
     
     var key = {
-      fullscreenEnabled: 0,
+      fullscreenEnabled: 1,
       fullscreenElement: 1,
       requestFullscreen: 2,
       exitFullscreen: 3,
